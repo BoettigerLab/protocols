@@ -106,7 +106,7 @@ All solutions should be prepared using distilled, deionized water (ddH2O). Take 
 * Reverse Transcription (RT)
   1.	Maxima H Minus RT Transcriptase (ThermoFisher Scientific, EP0751).
   2.	dNTP Mix – 10 mM each (Thermo Fisher, R0191).
-  3.	15% Mini-PROTEAN TBE-Urea Precast Gels (Bio-Rad, 4565054).
+  3.	15% Mini-PROTEAN TBE-Urea Precast Gels (Bio-Rad, 4565054), or make your own (see [PAGEgelCasting protocol](https://github.com/BoettigerLab/protocols/blob/master/PAGEgelCasting.md))
   4. Urea-loading buffer (Thermo Fisher, LC6876).
 
 * Probe cleanup
