@@ -22,7 +22,7 @@ For casting 2 gels.
 * 20 uL TEMED
 
 #### Procedure
-* weigh out urea in 100 uL beaker
+* weigh out urea in 100 mL beaker
 * add acrylamide, TBE and ddH2O
 * add stir bar,
 * stir and heat on low gently 3-5 minutes, until Urea is dissolved.  Let cool.
