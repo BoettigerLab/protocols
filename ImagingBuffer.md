@@ -8,8 +8,9 @@
 
 ### Mixing instructions 
 * ( Recipe per 10 mL total buffer, scale up accordingly, up to 40 mL)
-* In a 1.5 uL tube measure out 10 mg Glucose Oxidase (yellow powder, stored at -20C) and dissolve it in 500 uL 2x SSC by vortexing
+* In a 1.5 uL tube measure out **2.5 mg** Glucose Oxidase (yellow powder, stored at -20C) and dissolve it in 500 uL 2x SSC by vortexing
 	* 500 uL should be enough to dissolve up to 40 mgs
+	* final concentration should be .25 mg/mL (0.5 mg/mL is saturating)
 * Add 100 uL dissolved Catalase solution (yellow brown liquid, sediment free). Mix gently. Do Not vortex. 
 * In a 50 mL flask, add 1 mL 20x SSC
 * Add 2 mL of 50% Glucose Solution (stored at RT, filter sterilize)
