@@ -2,9 +2,7 @@
 ## Methods
 All steps are carried out at room temperature, unless indicated otherwise.
 
-#### Limited Cycle PCR 
-(50 μl reaction)
-
+#### Limited Cycle PCR (50 μl reaction)
   1.	Prepare on ice:
 	* 15 μl ddH2O.
 	* 25 μl Phusion Hot-start Master Mix.
@@ -16,14 +14,17 @@ All steps are carried out at room temperature, unless indicated otherwise.
   2.	Run reactions on a Real-Time (RT) PCR machine, stopping the reaction for each tube while it is still in the exponential growth phase (i.e., before it reaches saturation). A calibration run may be necessary to identify when this will happen. PCR protocol:
 	1. 	Incubate at 98°C for 3 minutes.
 	2. 	Incubate at 98°C for 5 seconds.
-	3.  Incubate at 72°C for 20 seconds.
-	4.  Cycle through steps 2.1.2 and 2.1.3 approximately 15-25 times.
+	3. 	Incubate at 65°C for 10 seconds.
+	4.  Incubate at 72°C for 14 seconds.
+	5.  Image progress 
+	6.  Incubate at 72°C for 8 seconds.
+	7.  Cycle through steps 2.1.2 and 2.1.6 approximately 15-28 times.
 
-  3.	Recommended: validate PCR reaction by running 2 µl out on a 2% agarose borax gel. 
+  3.	OPTIONAL: validate PCR reaction by running 2 µl out on a 2% agarose borax gel. 
 	1. Dissolve 2 g agarose in 100 ml borax solution by boiling for 30 seconds.
 	2. Cast the hot solution and let sit until gelled.
 	3. A satisfying result will feature a single band, which will be more likely to happen if the PCR reaction does not saturate.
-	4. If amplification fails, try 3-step PCR with an annealing temperature of 60-70C.
+	4. If amplification fails, try altering annealing conditions.
 
 #### PCR cleanup (50 µl reaction)
   1.	In a 1.5 ml tube, add 350 μL Zymo DNA binding buffer to ~50 μL of PCR product.
@@ -52,7 +53,7 @@ All steps are carried out at room temperature, unless indicated otherwise.
 	* 10 µl RT Buffer from Maxima H Minus kit.
 	* 2-10 µl 100 μM labeled or unlabeled primer.
 		* Note: When using labeled primer, you may wish to run a test scale-reaction to determine the incorporation efficiency and determine the amount of primer to add. Use 5 uL of RNA and 1-5 uL of labeled primer in a 20 uL reaction and run out 2 uL of product on a PAGE gel (see below).  
-	* 4 µl or less Maxima H Minus RT enzyme.
+	* 1 µl or less Maxima H Minus RT enzyme.
 		* Note: Experiments suggest it is possible to reduce the enzyme concentration 10 fold without loss in product yield.  This can substantially reduce the cost or probe construction.
 	* 4 µl RNasin RNase inhibitor.
 		* Note: It is essential to use an RNase inhibitor engineered to work at 50C, RNasin does, most do not.
@@ -68,18 +69,20 @@ All steps are carried out at room temperature, unless indicated otherwise.
 	*  80% or more incorporation of the RT primer would be a satisfying outcome.
 
 #### Probe Cleanup
-1.	Add 150 μl Oligo binding buffer to a clean 1.5 mL tube. (The volume of Oligo binding buffer added should 2X the volume of the sample after addition of NaOH-EDTA; 2 x 75 µl = 150 µl).
+1.	Add 150 μl Oligo binding buffer to a clean 1.5 mL tube. 
+	* (The volume of Oligo binding buffer added should 2X the volume of the sample after addition of NaOH-EDTA; 2 x 75 µl = 150 µl).
 3.	Add NaOH-treated RT product (75 μL) to each tube and mix by pipetting.	
-2.	Add 600 μL 100% Ethanol to each tube and mix. (The total volume of ethanol added should be 8X the volume of the sample after addition of NaOH-EDTA; 8 x 75 µl = 600 µl).
-3.	Transfer the solution of one tube to a Zymo DCC-5 or DCC-25 column, spin at ≥10,000 g for 30 seconds, and discard washthrough.
-	* Notes: 
-		- 1: The maximum capacity of the column is 750 µl. It is recommended to add half the solution, spin, remove wash-through, and add the other half and spin again.
-		- 2: High concentration probes may saturate the DCC-5 column and require DCC-25s.   
+2.	Add 600 μL 100% Ethanol to each tube and mix. 
+	 * (The total volume of ethanol added should be 8X the volume of the sample after addition of NaOH-EDTA; 8 x 75 µl = 600 µl).
+3.	Transfer the solution of one tube to a Zymo **DCC-25** column, spin at ≥10,000 g for 30 seconds, and discard washthrough. 
+	- Note 1: The maximum capacity of the column is 800 µl. Larger volumes may be split over two spins. 
+	- Note 2: High concentration probes may saturate the DCC-5 column so DCC-25s are recommended.   
 4.	Add 750 μl DNA Wash Buffer.
 5.	Spin at >10,000 g for 30 seconds and discard flow-through.
 6.	Spin at ≥10,000 g for 30 seconds to remove excess buffer.
 7.	Transfer column to a clean 1.5 ml tube.
-8.	Elute in 30 μl ddH2O.
+8.	Elute in 30 - 60 μl ddH2O.
+	* yield is often better by eluting in a higher volume of water and concentrating the probe later in a rotaevap. 
 9.	Measure final probe concentration.
 
 
