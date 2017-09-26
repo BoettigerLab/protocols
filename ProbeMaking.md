@@ -1,9 +1,11 @@
+# Probe synthesis from complex-oligo pools
+This protocol was written by the Boettiger Lab, and is adapted from our previously published protocols.
 
 ## Methods
 All steps are carried out at room temperature, unless indicated otherwise.
 
-#### Limited Cycle PCR (50 μl reaction)
-  1.	Prepare on ice:
+#### Limited Cycle PCR (per 50 μl reaction)
+1. Prepare on ice:
 	* 15 μl ddH2O.
 	* 25 μl Phusion Hot-start Master Mix.
 	* 2.5 μl 10 µM Forward primer.
@@ -11,7 +13,7 @@ All steps are carried out at room temperature, unless indicated otherwise.
 	* 2.5 μl 1:50 dilution of Oligopaints library.
 	* 2.5 μl 20X EvaGreen.
 
-  2.	Run reactions on a Real-Time (RT) PCR machine, stopping the reaction for each tube while it is still in the exponential growth phase (i.e., before it reaches saturation). A calibration run may be necessary to identify when this will happen. PCR protocol:
+2. Run reactions on a Real-Time (RT) PCR machine, stopping the reaction for each tube while it is still in the exponential growth phase (i.e., before it reaches saturation). A calibration run may be necessary to identify when this will happen. PCR protocol:
 	1. 	Incubate at 98°C for 3 minutes.
 	2. 	Incubate at 98°C for 5 seconds.
 	3. 	Incubate at 65°C for 10 seconds.
@@ -19,12 +21,16 @@ All steps are carried out at room temperature, unless indicated otherwise.
 	5.  Image progress 
 	6.  Incubate at 72°C for 8 seconds.
 	7.  Cycle through steps 2.1.2 and 2.1.6 approximately 15-28 times.
+	8.  Be sure to stop the reaction only when at 72°C or below.  Stopping during the melting phase will result in cross-annealed hybrids.  
 
-  3.	OPTIONAL: validate PCR reaction by running 2 µl out on a 2% agarose borax gel. 
+3. OPTIONAL: validate PCR reaction by running 2 µl out on a 2% agarose borax gel. 
 	1. Dissolve 2 g agarose in 100 ml borax solution by boiling for 30 seconds.
-	2. Cast the hot solution and let sit until gelled.
-	3. A satisfying result will feature a single band, which will be more likely to happen if the PCR reaction does not saturate.
-	4. If amplification fails, try altering annealing conditions.
+	2. Cast the hot solution and let sit until gelled. (incubate at 4C to accelerate gelling). 
+	3. A satisfying result will feature a single band, typically at 120-160 bp, depending on the length of the library. 
+	4. A failed result may look like:
+		- Two strong bands, one higher-weight than the target, indicates the presence of cross-annealed hybrids resulting from over amplification.
+		- A single band of than expected molecular weight, indicating all product is cros hybridized.
+		- decreasing the number of cycles and/or increasing the primer concentration may help.
 
 #### PCR cleanup (50 µl reaction)
   1.	In a 1.5 ml tube, add 350 μL Zymo DNA binding buffer to ~50 μL of PCR product.
@@ -51,15 +57,16 @@ All steps are carried out at room temperature, unless indicated otherwise.
   1.	Prepare on ice in RNase-free environment:
 	* 4 µl dNTP (10 mM each).
 	* 10 µl RT Buffer from Maxima H Minus kit.
-	* 2-10 µl 100 μM labeled or unlabeled primer.
-		* Note: When using labeled primer, you may wish to run a test scale-reaction to determine the incorporation efficiency and determine the amount of primer to add. Use 5 uL of RNA and 1-5 uL of labeled primer in a 20 uL reaction and run out 2 uL of product on a PAGE gel (see below).  
+	* 6 µl 200 μM labeled or unlabeled primer.
+		* Note: When using labeled primer, you may wish to run a test scale-reaction and validate efficiency on a gel first.
+		* Note: If a substantial primer band is observed in the PAGE gel below, use less primer.    
 	* 1 µl or less Maxima H Minus RT enzyme.
-		* Note: Experiments suggest it is possible to reduce the enzyme concentration 10 fold without loss in product yield.  This can substantially reduce the cost or probe construction.
+		* 1 µl is sufficient for up to a 10X master-mix. It is not recommended however to pipette less than 1 µl of the viscous glycerol solution. 
 	* 4 µl RNasin RNase inhibitor.
 		* Note: It is essential to use an RNase inhibitor engineered to work at 50C, RNasin does, most do not.
-	* 20 µl RNA from T7 reaction.
+	* All RNA (+enzyme buffer mix) from T7 reaction (20 uL).
 		* Note: It is recommended to add these components to the same PCR tube used for the T7 reactions.  The 23 uL T7 reaction will experience some evaporation, so the final concentration is closer to 20 uL.
-  2.	Incubate at 50˚C for 1-2 hours (no pre-denaturing step required).
+  2.	Incubate at 50˚C for 1 hour (no pre-denaturing step required).
   3.	Digest remaining RNA:
 	* Mix 1:1 0.5 M EDTA and 1 M NaOH.
 	* Add 25 µl of the NaOH-EDTA solution.

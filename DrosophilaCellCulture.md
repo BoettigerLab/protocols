@@ -21,7 +21,7 @@ then repeat the change of medium.
 ## Growing Cells
 ### BG3
 * Media = Schnieder's media (+Glut), 10% heat-inactivated FBS, insulin, 
-* optional penicilin + streptomycin. Filter sterilize. 
+* optional penicilin + streptomycin (1:1000 dilution from stock). Filter sterilize. 
 * passage at 1:3, every 4-7 days
 * very sensitive to overgrowth or overdilution. 
 
@@ -30,8 +30,7 @@ then repeat the change of medium.
 * passage at 1:10 every 4-7 days
 
 ## Freezing Cells
-We strongly recommend that you prepare a few ampoules of frozen cells as soon as your cells
-are growing well. Stored in liquid nitrogen, the cells are stable indefinitely. We use the
+(From DGRC protocol): Prepare a few ampoules of frozen cells as soon as your cells are growing well. Stored in liquid nitrogen, the cells are stable indefinitely. We use the
 technique described below.
 
 ### Materials
