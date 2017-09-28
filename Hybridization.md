@@ -5,7 +5,9 @@ For labeling of RNA or DNA with complex oligo pools. This protocol was written b
 
 ### Adherent cells (e.g. IMR90s)
 1. Plate cells on 40 mm coverglass at the desired confluency and allow cells to adhere (typically overnight).
-2. Fix cells to coverglass by incubating a further 10 min in fixation buffer (4% PFA in PBS).
+2. Fix cells to coverglass by removing growth media and covering the cells in fixation buffer (4% PFA in PBS) for 10 min.  
+	* 2-4 mL is sufficient to cover the coverglass in a 6 0mm petri-dish.
+3. Remove the fixation buffer and wash 2X with PBS
 
 ### Suspended cells (e.g. K562s)
 1. Coat 40 mm coverglass with poly-lysine
@@ -15,13 +17,16 @@ For labeling of RNA or DNA with complex oligo pools. This protocol was written b
 5. Add cells in a droplet to the poly-lysine coated coverglass.
 6. Spin cells at 3000 rpm in a swinging bucket centrifuge at maximum acceleration for 90 s.
 	- Note: holding the pulse spin for 90 s may provide better acceleration.
-7. Fix cells to coverglass by incubating a further 10 min in fixation buffer.
+7.  Fix cells to coverglass by removing growth media and covering the cells in fixation buffer (4% PFA in PBS) for 10 min.  
+	* 2-4 mL is sufficient to cover the coverglass in a 6 0mm petri-dish.
+8. Remove the fixation buffer and wash 2X with PBS
 
 ### Tissue sections
 1. Pre-coat 40 mm coverglass with chromium-gelatin solution.
 2. Cryosection tissue sections 4-6 um thick, place in center of coverglass.  
 	- Cut sections may be stored at -20C until needed.
 3. Fix tissue to gelatin by incubating 10 min in fixation buffer (4% PFA in PBS)
+3. Remove the fixation buffer and wash 2X with PBS
 
 ## Sample permeabilization (all sample types)
 We recommend 50 or 60 mm petri dishes as containers for the 40mm coverglass during sample treatment 
