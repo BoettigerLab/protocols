@@ -13,6 +13,8 @@ All components should be rinsed in nuclease-free water and dried before assembly
 7. Clasp the plastic chamber top against the metal chamber bottom to hold everything together, then invert the chamber.  
 8. Move the metal clamps into place, and tighten using the metal collar. 
 
+![](https://raw.github.com/AlistairBoettiger/Protocols/master/BiopticsAssembly.PNG)
+
 ## Prepare imaging buffer
 
 ### Reagents
@@ -47,17 +49,17 @@ All components should be rinsed in nuclease-free water and dried before assembly
 * toehold-probes (10 uM stock)
 
 ### Setup
-1. Prepare labeling buffer mix
-	* 25% ethylene carbonate (EC) 
-		* heat to >42C in water bath to liquify
+1. Prepare labeling buffer mix with a final composition of: 
 	* 2X SSC
-	* 1 uM universal-readout probe (0.5 uL of 200 uM stock per hybridization)
-	* Prepare enough for 600 mL per hybridization
-	* Add the 25% EC to the diluted SSC to avoid crystallization. 
+	* 0.1 uM universal-readout probe (0.5 uL of 200 uM stock per mL of hybridization buffer)
+	* 25% ethylene carbonate (EC) 
+		* Note: heat pure EC to >42C in water bath to liquify
+		* Add the 25% EC to the diluted SSC to avoid crystallization.
+	* Prepare enough for 600 uL per hybridization
 2. Add 600 uL of labelling buffer mix to every well
 	* negative controls (hybridizations/wells that don't get an adapter probe) don't need universal-readout probe (which is expensive).  
-3. Add desired adapters at 1 uM final concentration (6 uL of 10 uM working stock)
-4. Add the toehold probes for each adapter to the *following* well at 3 uM final concentration. 
+3. Add desired adapters at 0.1 uM final concentration (6 uL of 10 uM working stock in 600 uL of buffer)
+4. Add the toehold probes for each adapter to the *following* well at 0.3 uM final concentration. 
 
 
 ## Microscope Setup
@@ -97,7 +99,7 @@ All components should be rinsed in nuclease-free water and dried before assembly
 9. Write the "Dave Recipe"
 	- it is recommended you copy a previous recipe into your Settings folder and modify that.
 	- Check that the save directory paths are updated
-	- Check that the hybridizations valve commands are correct.
+	- Check that the hybridization valve commands are correct.
 	- Check that the offset value in the movie parameters matches the center of focus of your sample.
 	- Generate all the empty folders ti save your hybridization data in. 
 	- There is a little matlab script to autocreate the folders and hybridization commands, which can speed things up over copy-paste. 
