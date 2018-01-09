@@ -48,7 +48,7 @@ For casting 2 gels.
 
 # Notes:
 
-![components](/Images/BioRad_PAGE_setup.jpg)
+![components](./Images/BioRad_PAGE_setup.jpg)
 
 
 #### Comb volumes
