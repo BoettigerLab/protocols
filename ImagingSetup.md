@@ -13,7 +13,8 @@ All components should be rinsed in nuclease-free water and dried before assembly
 7. Clasp the plastic chamber top against the metal chamber bottom to hold everything together, then invert the chamber.  
 8. Move the metal clamps into place, and tighten using the metal collar. 
 
-![Assembly](./Images/BiopticsAssembly.PNG)
+![Assembly](https://raw.githubusercontent.com/BoettigerLab/protocols/master/Images/BiopticsAssembly.PNG)
+
 
 ## Prepare imaging buffer
 
