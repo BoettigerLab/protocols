@@ -1,7 +1,7 @@
 
 ## Materials
 * Apple juice-agar plates
-* 0.6 g methyl-p-hydroxybenzoate
+* 0.6 g methyl 4-hydroxybenzoate
 * 10.0 g sucrose
 * 250 mL apple juice
 * 9.0 g Bacto agar
