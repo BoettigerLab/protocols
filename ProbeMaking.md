@@ -10,7 +10,7 @@ All steps are carried out at room temperature, unless indicated otherwise.
 	* 25 μl Phusion Hot-start Master Mix.
 	* 2.5 μl 10 µM Forward primer.
 	* 2.5 μl 10 µM Reverse primer with T7 promoter sequence.
-	* 2.5 μl 1:50 dilution of Oligopaints library.
+	* 2.5 μl diluted Oligopaints library (~1 ng/uL is a good start).
 	* 2.5 μl 20X EvaGreen.
 
 2. Run reactions on a Real-Time (RT) PCR machine, stopping the reaction for each tube while it is still in the exponential growth phase (i.e., before it reaches saturation). A calibration run may be necessary to identify when this will happen. PCR protocol:
