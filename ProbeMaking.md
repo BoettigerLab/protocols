@@ -45,35 +45,35 @@ All steps are carried out at room temperature, unless indicated otherwise.
 
 #### T7 reaction (23 μl reaction)
   1.	Prepare on ice in RNase-free environment:
-	* 10 µl PCR product.
-	* 10 µl NTP buffer mix (from HiScribe kit).
-	* 2 µl T7 Pol Mix (from HiScribe kit).
-		* Note: This enzyme/buffer mix is the most expensive component of the reaction. Experiments suggest reducing the concentration of enzyme at this step will reduce product yield. 
-	* 1 µl RNase inhibitor.
-		* Note: Any RNase inhibitor should work at this step, it is not necessary to use the more expensive RNasin.
+		* 10 µl PCR product.
+		* 10 µl NTP buffer mix (from HiScribe kit).
+		* 2 µl T7 Pol Mix (from HiScribe kit).
+			* Note: This enzyme/buffer mix is the most expensive component of the reaction. Experiments suggest reducing the concentration of enzyme at this step will reduce product yield. 
+		* 1 µl RNase inhibitor.
+			* Note: Any RNase inhibitor should work at this step, it is not necessary to use the more expensive RNasin.
   2.	Incubate at 37˚C for 4-16 hrs.
 
 #### RT reaction (50 µl reaction)
   1.	Prepare on ice in RNase-free environment:
-	* 4 µl dNTP (10 mM each).
-	* 10 µl RT Buffer from Maxima H Minus kit.
-	* 6 µl 200 μM labeled or unlabeled primer.
-		* Note: When using labeled primer, you may wish to run a test scale-reaction and validate efficiency on a gel first.
-		* Note: If a substantial primer band is observed in the PAGE gel below, use less primer.    
-	* 1 µl or less Maxima H Minus RT enzyme.
-		* 1 µl is sufficient for up to a 10X master-mix. It is not recommended however to pipette less than 1 µl of the viscous glycerol solution. 
-	* 4 µl RNasin RNase inhibitor.
-		* Note: It is essential to use an RNase inhibitor engineered to work at 50C, RNasin does, most do not.
-	* All RNA (+enzyme buffer mix) from T7 reaction (20 uL).
-		* Note: It is recommended to add these components to the same PCR tube used for the T7 reactions.  The 23 uL T7 reaction will experience some evaporation, so the final concentration is closer to 20 uL.
+		* 4 µl dNTP (10 mM each).
+		* 10 µl RT Buffer from Maxima H Minus kit.
+		* 6 µl 200 μM labeled or unlabeled primer.
+			* Note: When using labeled primer, you may wish to run a test scale-reaction and validate efficiency on a gel first.
+			* Note: If a substantial primer band is observed in the PAGE gel below, use less primer.    
+		* 1 µl or less Maxima H Minus RT enzyme.
+			* 1 µl is sufficient for up to a 10X master-mix. It is not recommended however to pipette less than 1 µl of the viscous glycerol solution. 
+		* 4 µl RNasin RNase inhibitor.
+			* Note: It is essential to use an RNase inhibitor engineered to work at 50C, RNasin does, most do not.
+		* All RNA (+enzyme buffer mix) from T7 reaction (20 uL).
+			* Note: It is recommended to add these components to the same PCR tube used for the T7 reactions.  The 23 uL T7 reaction will experience some evaporation, so the final concentration is closer to 20 uL.
   2.	Incubate at 50˚C for 1 hour (no pre-denaturing step required).
   3.	Digest remaining RNA:
-	* Mix 1:1 0.5 M EDTA and 1 M NaOH.
-	* Add 25 µl of the NaOH-EDTA solution.
-	* Heat at 95˚C for 10 minutes.
+		* Mix 1:1 0.5 M EDTA and 1 M NaOH.
+		* Add 25 µl of the NaOH-EDTA solution.
+		* Heat at 95˚C for 10 minutes.
   4.	Recommended: Test reaction product by running 2 ul out on a 15% urea TBE gel.  Use urea-loading buffer.  
-	* Run gel in 60°C water bath for ~40 minutes to ensure probe is denatured. This allows for clear separation between the RT primer and the desired ssDNA probe.
-	*  80% or more incorporation of the RT primer would be a satisfying outcome.
+		* Run gel in 60°C water bath for ~40 minutes to ensure probe is denatured. This allows for clear separation between the RT primer and the desired ssDNA probe.
+		*  80% or more incorporation of the RT primer would be a satisfying outcome.
 
 #### Probe Cleanup
 1.	Add 150 μl Oligo binding buffer to a clean 1.5 mL tube. 
